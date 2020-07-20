@@ -1,0 +1,170 @@
+body{
+  background: whitesmoke no-repeat center;
+  width: 100%;
+  height: 100vh;
+
+}
+.cshead{
+    background-color: blue;
+    height: 120px;
+    font-family: 'Press Start 2P', cursive;
+    text-align: left;
+    padding: 20px;
+}
+
+.tab{
+    
+    border: 1px solid #333;
+    overflow: hidden;
+    background-color: lightblue;
+  }
+  
+  .tab a {
+    float: left;
+    font-family: 'Rowdies', cursive;
+    font-size: 20px;
+    cursor: pointer;
+    background-color:lightblue;
+    text-align: center;
+    padding: 12px 20px;
+    text-decoration: none ; 
+  }
+
+  .tab a:hover {
+    background-color:white;
+    color: yellowgreen;
+    
+  }
+  .tab a:active{
+    background-color: #333;
+  }
+.tab .log_reg{
+  float: right;
+}
+
+.cb{
+  position: relative;
+  top :14mm;
+  left: 2%;
+  max-width: 13%;
+  padding: 9px;
+  background-color: rgb(56, 252, 56);
+  border: 1px solid green;
+  cursor: pointer;
+  border-radius: 5px;
+  justify-content: space-between;
+}
+  .cb a{
+  color: black;
+  font-style: oblique;
+  font-size: 24px;
+  text-decoration:none;
+  font-family: 'Rowdies', cursive;
+
+  }
+  .cb a:hover{
+    color: whitesmoke;
+
+    }
+  .cb a:active{ 
+    color: black;
+  }
+
+.search{
+  position: relative;
+  left: 20%;
+  background: rgba(0,0,0,0.6);
+  max-width: 75%; 
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.search input{
+  width: 85%;
+  padding: 10px 10px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.searchbt {
+  background: #ccc;
+  width: 10%;
+  border-radius: 5px;
+  position: relative;
+  cursor: pointer;
+  
+}
+.searchbt .fas{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  font-size: 18px;
+
+}
+.searchbt:hover {
+  background: black;
+}
+.cont{
+  float: left;
+  top: 2%;
+  left: 1%;
+  
+}
+.cont h4 {
+  margin-left: 20px;
+  padding: 5px;
+}
+.cont h4:hover{
+  color: white;
+  cursor: pointer;
+
+}
+.breaknews {
+  position: absolute;
+  right: 3%;
+  bottom: 0;
+  text-align: center;
+  background: rgba(50,50,50,0.2);
+  max-width: 50%;
+  padding: 20px;
+  float: right;
+  border-radius: 5px;
+}
+img{
+  width: 490px;
+  height: 255px; 
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #0066ff;
+  color :white;
+  text-align : start;
+  padding: 0mm 5mm;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 12px;
+}
+.crop{
+  position: relative;
+  top : 5%;
+  left : 2%;
+  height: 100%;
+  background: rgba(50,50,50,0.2);
+  max-width: 50%;
+  
+  padding: 5px;
+  border-radius: 5px;
+  
+}
+
+
+
+
+
+
+
